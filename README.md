@@ -41,10 +41,10 @@ DejaView/
 ├── Extras/ # Ekstra Notebooklar
 │
 ├── Notebooks/
-│ ├── kmeans_clustering.ipynb
 │ ├── agglomerative_clustering.ipynb
-│ ├── mean_shift_model.ipynb
-  ├── gmm_model.ipynb
+│ ├── gmm_model.ipynb
+│ ├── kmeans_clustering.ipynb
+  ├── mean_shift_model.ipynb
 │ └── optics_clustering.ipynb
 │
 ├── Models/ # Eğitim sonrası modellerin saklandığı klasör
