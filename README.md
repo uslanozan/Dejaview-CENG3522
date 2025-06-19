@@ -22,8 +22,9 @@ Projede aşağıdaki kümeleme algoritmaları kullanılmıştır:
 
 - **K-Means Clustering**
 - **Agglomerative Clustering** (Hiyerarşik Kümeleme)
-- **DBSCAN** (Yoğunluk Tabanlı Kümeleme)
+- **GMM** (Gauss Karışım Modeli)
 - **OPTICS** (Yoğunluk Tabanlı Kümeleme Alternatifi)
+- **Mean Shift algorithm** (Ortalama Kaydırma Algoritması)
 
 Bu algoritmaların her biri farklı özelliklere ve avantajlara sahiptir. Projede performans ve doğruluk karşılaştırmaları yapılmaktadır.
 
@@ -40,9 +41,10 @@ DejaView/
 ├── Extras/ # Ekstra Notebooklar
 │
 ├── Notebooks/
-│ ├── kmeans_clustering.ipynb
 │ ├── agglomerative_clustering.ipynb
-│ ├── dbscan_clustering.ipynb
+│ ├── gmm_model.ipynb
+│ ├── kmeans_clustering.ipynb
+  ├── mean_shift_model.ipynb
 │ └── optics_clustering.ipynb
 │
 ├── Models/ # Eğitim sonrası modellerin saklandığı klasör
