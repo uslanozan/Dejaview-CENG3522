@@ -1,0 +1,330 @@
+[
+    {
+        "vectorizer": "SBERT",
+        "cluster_model": "Agglomerative",
+        "accuracy": 0.6498,
+        "silhouette": 0.10499999672174454,
+        "calinski_harabasz": 72.8972,
+        "davies_bouldin": 2.0797
+    },
+    {
+        "vectorizer": "SBERT",
+        "cluster_model": "OPTICS",
+        "accuracy": 0.9076,
+        "silhouette": 0.5365999937057495,
+        "calinski_harabasz": 91.2296,
+        "davies_bouldin": 0.7665
+    },
+    {
+        "vectorizer": "SBERT",
+        "cluster_model": "K-Means",
+        "accuracy": 0.5891,
+        "silhouette": 0.11640000343322754,
+        "calinski_harabasz": 83.4867,
+        "davies_bouldin": 2.5317
+    },
+    {
+        "vectorizer": "SBERT",
+        "cluster_model": "Agglomerative",
+        "accuracy": 0.6654,
+        "silhouette": 0.1151999980211258,
+        "calinski_harabasz": 79.5506,
+        "davies_bouldin": 2.6652
+    },
+    {
+        "vectorizer": "BERTurk",
+        "cluster_model": "Agglomerative",
+        "accuracy": "Unknown",
+        "silhouette": 0.10890000313520432,
+        "calinski_harabasz": 728.5377197265625,
+        "davies_bouldin": 2.0197
+    },
+    {
+        "vectorizer": "BERTurk",
+        "cluster_model": "K-Means",
+        "accuracy": "Unknown",
+        "silhouette": 0.11020000278949738,
+        "calinski_harabasz": 570.7341918945312,
+        "davies_bouldin": 2.6172
+    },
+    {
+        "vectorizer": "BERTurk",
+        "cluster_model": "GMM",
+        "accuracy": "Unknown",
+        "silhouette": 0.10769999772310257,
+        "calinski_harabasz": 571.1707763671875,
+        "davies_bouldin": 2.6497
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Agglomerative",
+        "accuracy": 0.5307,
+        "silhouette": 0.0534,
+        "calinski_harabasz": 24.8778,
+        "davies_bouldin": 3.582
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "K-Means",
+        "accuracy": 0.5759,
+        "silhouette": 0.0509,
+        "calinski_harabasz": 24.0978,
+        "davies_bouldin": 4.0993
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.3352,
+        "calinski_harabasz": 232.5445,
+        "davies_bouldin": 1.2457
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Mean Shift",
+        "accuracy": "N/A",
+        "silhouette": 0.8482,
+        "calinski_harabasz": 4730.174,
+        "davies_bouldin": 0.2107
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "OPTICS",
+        "accuracy": "N/A",
+        "silhouette": 0.0759,
+        "calinski_harabasz": 82.7114,
+        "davies_bouldin": 0.9815
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5535,
+        "calinski_harabasz": 1609.645,
+        "davies_bouldin": 0.5752
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.2954,
+        "calinski_harabasz": 159.3336,
+        "davies_bouldin": 0.6612
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5419,
+        "calinski_harabasz": 1344.612,
+        "davies_bouldin": 0.5694
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.2954,
+        "calinski_harabasz": 159.3336,
+        "davies_bouldin": 0.6612
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5535,
+        "calinski_harabasz": 1609.645,
+        "davies_bouldin": 0.5752
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5419,
+        "calinski_harabasz": 1344.612,
+        "davies_bouldin": 0.5694
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5419,
+        "calinski_harabasz": 1344.612,
+        "davies_bouldin": 0.5694
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": 0.4451,
+        "silhouette": 0.5535,
+        "calinski_harabasz": 1609.645,
+        "davies_bouldin": 0.5752
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": 0.4451,
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": 0.4451,
+        "silhouette": 0.5535,
+        "calinski_harabasz": 1609.645,
+        "davies_bouldin": 0.5752
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": 0.5082,
+        "silhouette": 0.5419,
+        "calinski_harabasz": 1344.612,
+        "davies_bouldin": 0.5694
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": 0.4451,
+        "silhouette": 0.5535,
+        "calinski_harabasz": 1609.645,
+        "davies_bouldin": 0.5752
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": 0.4451,
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": 0.4451,
+        "silhouette": 0.5535,
+        "calinski_harabasz": 1609.645,
+        "davies_bouldin": 0.5752
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": 0.5082,
+        "silhouette": 0.5419,
+        "calinski_harabasz": 1344.612,
+        "davies_bouldin": 0.5694
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5535,
+        "calinski_harabasz": 1609.645,
+        "davies_bouldin": 0.5752
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.2299,
+        "calinski_harabasz": 208.7982,
+        "davies_bouldin": 1.0175
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5419,
+        "calinski_harabasz": 1344.612,
+        "davies_bouldin": 0.5694
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5535,
+        "calinski_harabasz": 1609.645,
+        "davies_bouldin": 0.5752
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5535,
+        "calinski_harabasz": 1609.645,
+        "davies_bouldin": 0.5752
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Custom GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5419,
+        "calinski_harabasz": 1344.612,
+        "davies_bouldin": 0.5694
+    },
+    {
+        "vectorizer": "TF-IDF",
+        "cluster_model": "Sklearn GMM",
+        "accuracy": "N/A",
+        "silhouette": 0.5512,
+        "calinski_harabasz": 1580.9366,
+        "davies_bouldin": 0.5747
+    }
+]
